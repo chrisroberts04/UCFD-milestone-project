@@ -1,0 +1,104 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*-----------------------Nav Bar*/
+
+
+
+/*---------------------------------Containers*/
+
+.home-container {
+    height: 100vh;
+    
+    background: url(/images/home-background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.whistler-container {   
+    height: 100vh;
+    
+    background: url(/images/whistler-dual-mountain2015.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.verbier-container {
+    height: 100vh;
+    
+     background: url(/images/verbier.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.stanton-container { 
+    height: 100vh;
+    
+     background: url(/images/st-anton.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+}
+
+.vald-container {
+     height: 100vh;
+    
+     background: url(/images/val-d.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.newsletter-container {
+     height: 100vh;
+    
+    background: url(/images/news.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*=================Titles*/
+
+.title {
+    background-color: white;
+    padding: 40px;
+    margin-top: 35px;
+    color: #5C95D9;
+    display: block;
+}
+
+
+.key-facts {
+    background-color: white;
+    padding: 50px;
+    
+}
