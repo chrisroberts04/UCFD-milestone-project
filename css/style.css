@@ -1,17 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-/*-----------------------Nav Bar*/
+/*=====================================================================Nav Bar*/
+
+.navbar-default {
+    background-color: #4f6a8f;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: #A7B9D6;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #A7B9D6;
+}
 
 
-
-/*---------------------------------Containers*/
+/*==================================================================Containers*/
 
 .home-container {
     height: 100vh;
-    
-    background: url(/images/home-background.jpg) no-repeat center center fixed;
+    width: 100%;
+    margin-top: 50px;
+    background: url(/images/Ski-background-2.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -30,24 +44,24 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(0, 0, 0, 0.65);
 }
 
-.whistler-container {   
-    height: 100vh;
-    
+.whistler-container {
+    height: 100%;
+    width: 100%;
     background: url(/images/whistler-dual-mountain2015.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
 }
 
 .verbier-container {
-    height: 100vh;
-    
-     background: url(/images/verbier.jpeg) no-repeat center center fixed;
+    height: 100%;
+    width: 100%;
+    background: url(/images/verbier.jpeg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -55,21 +69,21 @@ body {
 
 }
 
-.stanton-container { 
-    height: 100vh;
-    
-     background: url(/images/st-anton.jpeg) no-repeat center center fixed;
+.stanton-container {
+    height: 100%;
+    width: 100%;
+    background: url(/images/st-anton.jpeg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-   
+
 }
 
 .vald-container {
-     height: 100vh;
-    
-     background: url(/images/val-d.jpg) no-repeat center center fixed;
+    height: 100%;
+    width: 100%;
+    background: url(/images/val-d.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -77,8 +91,8 @@ body {
 }
 
 .newsletter-container {
-     height: 100vh;
-    
+    height: 100%;
+    width: 100%;
     background: url(/images/news.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -86,19 +100,183 @@ body {
     background-size: cover;
 }
 
-/*=================Titles*/
+/*====================================================================Homepage*/
 
-.title {
-    background-color: white;
-    padding: 40px;
-    margin-top: 35px;
-    color: #5C95D9;
+.top-title {
+    color: #4f6a8f;
+    font-family: 'Roboto', cursive;
+    font-size: 420px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-shadow: -1px 0 #a7b9d6, 0 1px #a7b9d6, 1px 0 #a7b9d6, 0 -1px #a7b9d6;
     display: block;
 }
 
+.second-title {
+    color: #a7b9d6;
+    font-weight: lighter;
+    font-size: 30px;
+    font-style: italic;
+    text-transform: capitalize;
+    text-shadow: -1px 0 #4f6a8f, 0 1px #4f6a8f, 1px 0 #4f6a8f, 0 -1px #4f6a8f;
+
+}
+
+/*======================================================================Titles*/
+
+.resort-title {
+    background-color: #A7B9D6;
+    padding: 30px;
+    margin-top: 62px;
+    color: #4f6a8f;
+    height: 200px;
+    font-size: 45px;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+
+.resort-title h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.resort-title h4 {
+    font-size: 25px;
+    color: #4f6a8f;
+    text-align: center;
+}
+
+.resort-title a i {
+    color: #4f6a8f;
+}
 
 .key-facts {
+    background-color: #A7B9D6;
+    color: #4f6a8f;
+    padding-top: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+.things-to-know {
+    margin-top: 62px;
+    color: #4f6a8f;
+    background-color: #A7B9D6;
+    padding-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.plan-trip {
+    margin-top: 62px;
+    color: #4f6a8f;
+    background-color: #A7B9D6;
+    padding-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.plan-trip h1 {
+    text-align: center
+}
+
+.things-to-know .prices {
     background-color: white;
-    padding: 50px;
-    
+    padding: 20px;
+    border-radius: 10px;
+    font-style: italic;
+}
+
+.piste-map {
+    margin-bottom: 35px;
+    border-radius: 10px
+}
+
+.news-title {
+    background: #a7b9d7;
+    text-align: center;
+    color: #a7b9d7;
+    border-radius: 10px;
+}
+
+.contact-form {
+    color: #4f698e;
+    background: transparent;
+}
+
+/*===============================================================Booking Forms*/
+
+.booking-form {
+    width: 100%;
+}
+
+.btn {
+    color: #a7b9d7;
+    background-color: #4f6a8f;
+    width: 150px;
+    border-radius: 23px;
+    vertical-align: middle;
+}
+
+.btn:hover {
+    color: #4f6a8f;
+    background-color: #a7b9d7;
+    border-color: #4f6a8f;
+    transition: 0.25s ease-in-out
+}
+
+/*===============================================================Media Queries*/
+
+/*----------Mobile Queries*/
+
+@media (max-width: 767px) {
+    .home-container {
+        width: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .resort-title {
+        margin-top: 15px;
+    }
+    .things-to-know {
+        margin-top: 15px;
+    }
+    .key-facts {
+        margin-bottom: 0px;
+    }
+    .piste-map {
+        margin-bottom: 0px
+    }
+    .plan-trip {
+        margin-top: 15px;
+    }
+    .tourist-vid {
+        margin-bottom: 10px;
+    }
+}
+
+/*----------Tablet Queries*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .resort-title {
+        margin-top: 15px;
+    }
+    .things-to-know {
+        margin-top: 15px;
+    }
+    .key-facts {
+        margin-bottom: 0px;
+    }
+    .piste-map {
+        margin-bottom: 0px
+    }
+    .plan-trip {
+        margin-top: 15px;
+    }
+    .tourist-vid {
+        margin-bottom: 10px;
+    }
 }
