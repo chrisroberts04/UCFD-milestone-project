@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 /*=====================================================================Nav Bar*/
@@ -44,7 +43,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.65);
+    background-color: rgba(0, 0, 0, 0.35);
 }
 
 .whistler-container {
@@ -91,7 +90,7 @@ body {
 }
 
 .newsletter-container {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     background: url(/images/news.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -183,9 +182,14 @@ body {
 }
 
 .things-to-know .prices {
-    background-color: white;
-    padding: 20px;
+    background-color: #4f6a8f;
+    color: #A7B9D6;
+    padding: 15px;
     border-radius: 10px;
+
+}
+
+.things-to-know .prices li {
     font-style: italic;
 }
 
@@ -197,15 +201,42 @@ body {
 .news-title {
     background: #a7b9d7;
     text-align: center;
-    color: #a7b9d7;
+    color: #4f6a8f;
     border-radius: 10px;
+    height: 100px;
+    padding: 15px;
+    margin-top: 200px;
+    font-size: 50px;
+    word-wrap: break-word;
 }
+
 
 .contact-form {
     color: #4f698e;
     background: transparent;
+    margin-top: 35px;
 }
 
+.news-footer{ background: #a7b9d7;
+    text-align: center;
+    color: #4f6a8f;
+    border-radius: 10px;
+    height: 150px;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 23px;
+    overflow: auto;
+}
+
+.contact-form input {
+    width: 175%;
+    margin-left: -50px;
+}
+
+input {
+    border-radius: 5px;
+    margin: 5px;
+}
 /*===============================================================Booking Forms*/
 
 .booking-form {
@@ -217,13 +248,32 @@ body {
     background-color: #4f6a8f;
     width: 150px;
     border-radius: 23px;
-    vertical-align: middle;
+    margin-left: 30%;
+    margin-right: -30%;
 }
 
+
 .btn:hover {
-    color: #4f6a8f;
-    background-color: #a7b9d7;
-    border-color: #4f6a8f;
+    background-color: #6d8bb5;
+    border-color: #6d8bb5;
+    color: #a7b9d7;
+    transition: 0.25s ease-in-out
+}
+
+.btn-news {
+    color: #a7b9d7;
+    background-color: #4f6a8f;
+    width: 150px;
+    border: 0px;
+    border-radius: 23px;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.btn-news:hover {
+    background-color: #6d8bb5;
+    border-color: #6d8bb5;
+    color: #a7b9d7;
     transition: 0.25s ease-in-out
 }
 
@@ -240,6 +290,7 @@ body {
 @media (max-width: 767px) {
     .resort-title {
         margin-top: 15px;
+        padding: 28px;
     }
     .things-to-know {
         margin-top: 15px;
@@ -252,9 +303,14 @@ body {
     }
     .plan-trip {
         margin-top: 15px;
+        size: auto;
     }
     .tourist-vid {
         margin-bottom: 10px;
+    }
+    
+    .news-title {
+        margin-top: 15px;
     }
 }
 
@@ -278,5 +334,8 @@ body {
     }
     .tourist-vid {
         margin-bottom: 10px;
+    }
+     .news-title {
+        margin-top: 15px;
     }
 }
