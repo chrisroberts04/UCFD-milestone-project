@@ -103,7 +103,6 @@ body {
 
 .top-title {
     color: #4f6a8f;
-    font-family: 'Roboto', cursive;
     font-size: 420px;
     font-weight: 400;
     text-transform: uppercase;
@@ -204,10 +203,14 @@ body {
     color: #4f6a8f;
     border-radius: 10px;
     height: 100px;
-    padding: 15px;
-    margin-top: 200px;
+    width: 200px;
     font-size: 50px;
     word-wrap: break-word;
+    padding-top: 10px;
+}
+
+.news-title {
+    margin-top:100px;
 }
 
 
